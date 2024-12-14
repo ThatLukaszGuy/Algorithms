@@ -61,9 +61,9 @@ public class Bfs {
 		
 		// "enter[s] <- 0; T <- 1"
 		int[] enter = new int[n];
-    	int[] T = new int[1]; // "T <- 1"
-    	T[0] = 1; // as array so it can be a reference type - no pain
-		
+		int[] T = new int[1]; // "T <- 1"
+		T[0] = 1; // as array so it can be a reference type - no pain
+			
 		int[] leave = new int[n];
     	
 		// "WHILE != Leere Menge/ Empty"
