@@ -13,6 +13,7 @@ import java.util.HashSet;
 // simple Impl for nodes like 0 ... n
 // more sofisticated for nodes like A,B,C,D .... Z etc using hash maps (also good for eprog)
 
+// Runtime: O( |V| + |E| )
 
 public class TopoSort {
 	

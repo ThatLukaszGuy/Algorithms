@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.LinkedList;
 
+// Runtime: O( |V| + |E| )
+
 public class Bfs {
 	
 	// Simple Bfs implementation to learn - Lecture 11 - notes 

@@ -5,6 +5,8 @@ import java.util.ArrayList;
 // tried sticking to naming conventions from codeexpert 
 // n = vertices amount, m = edge count, E = adjacency list etc etc 
 
+// Runtime: O( |V| + |E| )
+
 public class Dfs {
 	
 	//***************************************************************************//
