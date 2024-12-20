@@ -8,6 +8,10 @@ import java.util.Arrays;
 // tried sticking to naming conventions from codeexpert 
 // n = vertices amount, m = edge count, E = adjacency list, W = weight list etc etc
 
+// NOTE: (to myself) In hindsight with last codeexpert task to check for cycles or min value to change to find neg cycles
+// better to not populate the diagnoal with zeroes as then its easier to read out cycles on the diagonal (maybe useful reminder for some
+// future task :) )
+
 //Runtime: O( n^3 )
 
 public class FloydWarshall {
